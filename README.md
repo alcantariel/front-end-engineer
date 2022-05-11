@@ -30,6 +30,8 @@ Qualidade de ser projetado para permitir a adição de novos recursos ou funcion
 
 É a decomposição em partes menores com interfaces padronizadas, ou seja, um módulo é um pedaço de código que pode ser reutilizado e combinado com outros módulos, ou até mesmo substituído.
 
+<br>
+
 ### Interoperabilidade
 
 É responsável pela sua operação e transmissão/troca de dados com outros sistemas externos. Para melhoras a interoperabilidade, é possível utilizar interfaces externas, sistemasa de padronização, etc.
@@ -69,6 +71,12 @@ Existem duas maneiras de melhorar a escalabilidade:
 ### Tolerância a Falhas
 
 Refere-se a capacidade de um sistema continuar operando sem interrupção quando um ou mais de seus componentes falham, garantindo alta diponibilidade e continuidade de negócios. Sistemas tolerantes a falhas, utilizam componentes de backup, que substituem automaticamente os componentes com falha para que não haja perda de serviço.
+
+<br>
+
+### Segurança
+
+É responsável pela capacidade do sistema reduzir a probabilidade de ações maliciosas ou acidentais, assim como a probabilidade de roubo ou perda de informações.
 
 <br>
 
