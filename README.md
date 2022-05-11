@@ -18,6 +18,68 @@
 
 <br>
 
+## Características da Arquitetura de Software
+
+### Extensível
+
+Qualidade de ser projetado para permitir a adição de novos recursos ou funcionalidades, ou seja, ser personalizável. Ex: adição de plugins ou addons.
+
+<br>
+
+### Modular
+
+É a decomposição em partes menores com interfaces padronizadas que são expostas para realizar a comunicação com este módulo, ou seja, um módulo é um pedaço de código que pode ser reutilizado e combinado com outros módulos, ou até mesmo substituído.
+
+<br>
+
+### Sustentável
+
+Com sustentável, pode se dizer que o software deve ser eficiente. Que fará a utilização dos recursos da melhor forma, levando em consideração o que tem disponível para execução.
+
+<br>
+
+### Performance
+
+Resposta do sistema com base na execução de determinadas ações por um determinado período de tempo.
+
+Maneiras de medir o desempenho:
+
+- Latência: tempo gasto na resposta a um evento
+- Capacidade do Canal: número de eventos que ocorrem em um determinado ponto no tempo
+
+Quanto menor a latência, maior a performance...
+
+<br>
+
+### Escalabilidade
+
+É a capacidade do sistema lidar com o aumento de carga sem d iminuir o desempenho, ou é a possibilidade de aumentar a carga de forma rápida.
+
+Existem duas maneiras de melhorar a escalabilidade:
+
+- Vertical (RECURSO): para aumentar, é necessário adicionar mais recursos, como memória, discos ou processadores de uma máquina/sistema
+- Horizontal (UNIDADES): para aumentar, é necessário adicionar mais unidades de computação e dividir a carga entre elas
+
+<br>
+
+### Tolerância a Falhas
+
+Refere-se a capacidade de um sistema continuar operando sem interrupção quando um ou mais de seus componentes falham, garantindo alta diponibilidade e continuidade de negócios. Sistemas tolerantes a falhas, utilizam componentes de backup, que substituem automaticamente os componentes com falha para que não haja perda de serviço.
+
+<br>
+
+### Confiabilidade
+
+É um atributo responsável pela capacidade de continuar operando sob condições predefinidas. Na maioria das vezes o sistema falha devido à inacessibilidade de elementos externos.
+
+<br>
+
+### Resiliência
+
+É a capacidade de fornecer e manter um nível aceitável de serviço diante das falhas e desafios. Estas falhas podem variar de uma simples configuração incorreta, até grandes desastres naturais.
+
+<br>
+
 ## Referências
 
 https://github.com/donnemartin/system-design-primer#performance-vs-scalability
