@@ -28,7 +28,7 @@ Qualidade de ser projetado para permitir a adição de novos recursos ou funcion
 
 ### Modular
 
-É a decomposição em partes menores com interfaces padronizadas que são expostas para realizar a comunicação com este módulo, ou seja, um módulo é um pedaço de código que pode ser reutilizado e combinado com outros módulos, ou até mesmo substituído.
+É a decomposição em partes menores com interfaces padronizadas, ou seja, um módulo é um pedaço de código que pode ser reutilizado e combinado com outros módulos, ou até mesmo substituído.
 
 <br>
 
