@@ -30,6 +30,10 @@ Qualidade de ser projetado para permitir a adição de novos recursos ou funcion
 
 É a decomposição em partes menores com interfaces padronizadas, ou seja, um módulo é um pedaço de código que pode ser reutilizado e combinado com outros módulos, ou até mesmo substituído.
 
+### Interoperabilidade
+
+É responsável pela sua operação e transmissão/troca de dados com outros sistemas externos. Para melhoras a interoperabilidade, é possível utilizar interfaces externas, sistemasa de padronização, etc.
+
 <br>
 
 ### Sustentável
