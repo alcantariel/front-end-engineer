@@ -2,16 +2,7 @@
 
 ## Arquitetura
 
-É o processo de conversão de características como:
-
-- flexibilidade
-- escalabilidade
-- resiliência
-- viabilidade
-- reutilização
-- segurança
-
-que atende as expectativas técnicas e principalmente de negócios/operacionais.
+É o processo de conversão de características como, flexibilidade, escalabilidade, resiliência, viabilidade, reutilização e segurança, que atenda as expectativas técnicas e principalmente de negócios/operacionais.
 
 É responsável pelo esqueleto e infraestrutura de alto nível.
 
