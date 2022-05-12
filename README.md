@@ -92,6 +92,69 @@ Refere-se a capacidade de um sistema continuar operando sem interrupção quando
 
 <br>
 
+## Padrões de Arquitetura de Software
+
+Disponibilidade ou modelo dos recursos/componentes disponíveis, assim como o relacionamento entre estes a fim de resolver um problema.
+
+<br>
+
+### Serverless
+
+Refere-se a uma solução que depende de serviços de terceiros para gerenciar a complexidade dos servidores e o gerenciamento backend.
+
+A arquitetura Serverless é dividida em duas categorias:
+
+- backend como serviço (BaaS)
+- funções como serviço (FaaS)
+
+Ajuda a economizar tempo, já que não tem um backend para implementar, corrigir bugs ou fazer tarefas regulares de servidores.
+
+O serviço mais famoso atualmente é o AWS Lambda.
+
+![Serverless](./assets/serverless.png)
+
+<br>
+
+### Event-driven
+
+Depende de **Produtores de Eventos** e **Consumidores de Eventos**.
+
+A ideia é desacoplar as partes do sistema onde cada parte será acionada quando um evento é produzido.
+
+Eventos produtores são dependentes de alguma ação do usuário/tempo para ser produzido.
+
+Os sistemas consumidores ficam escutando a eventos com base em um "tipo".
+
+![Event Driven](./assets/event-driven.png)
+
+<br>
+
+### Microsserviços
+
+Depende do desenvolvimento de pequenos serviços ou módulos, que são independentes, onde, cada serviço/módulo resolve um problema específico ou executa uma única tarefa.
+
+Esses módulos comunicam entre si por meio de uma API definida para atender o objetivo do negócio.
+
+![Microservices](./assets/microservices.png)
+
+<br>
+
+## Princípios de Desenvolvimento
+
+### SOLID
+
+- **S**ingle Responsability: significa que cada classe deve ter um único propósito, uma responsabilidade e um motivo para mudar.
+
+- **O**pen Closed: signiica que uma classe deve estar aberta para extensão e fechada para modificação. Em outras palavras, deve ser possível adicionar mais funcionalidades na classe, mas sem editar as funções atuais de uma forma que interrompa o código existente e que a utiliza.
+
+- **L**iskov Substitution: orienta o desenvolvedor a utilizar herança de uma maneira que uma classe filha "B" herdar de uma classe pai "A", a classe filha não deve replicar uma funcionalidade da classe pai de forma a alterar o comportamento da classe pai. Assim elas se tornam independentes e não quebram a lógica da aplicação.
+
+- **I**nterface Segregation: como uma classe pode implementar múltiplas interfaces, o código deve ser estruturado de uma forma que uma classe nunca seja forçada a implementar uma função que não seja importante para seu propósito.
+
+- **D**ependency Inversion: se uma determinada classe "Purchase" depende da classe "User", então a instanciação do objeto User deve vir de fora da classe Purchase. A abstração não depende do detalhe, o detalhe que depende da abstração.
+
+<br>
+
 ## Referências
 
 https://github.com/donnemartin/system-design-primer#performance-vs-scalability
