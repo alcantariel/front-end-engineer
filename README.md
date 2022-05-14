@@ -62,7 +62,7 @@ Quanto menor a latência, maior a performance...
 
 ### Escalabilidade
 
-É a capacidade do sistema lidar com o aumento de carga sem d iminuir o desempenho, ou é a possibilidade de aumentar a carga de forma rápida.
+É a capacidade do sistema lidar com o aumento de carga sem diminuir o desempenho, ou é a possibilidade de aumentar a carga de forma rápida.
 
 Existem duas maneiras de melhorar a escalabilidade:
 
@@ -145,13 +145,11 @@ Esses módulos comunicam entre si por meio de uma API definida para atender o ob
 
 ## Princípios de Desenvolvimento
 
-- Domínio e IP: "google.com" é o mesmo que "12"
-
 ### SOLID
 
 - **S**ingle Responsability: significa que cada classe deve ter um único propósito, uma responsabilidade e um motivo para mudar.
 
-- **O**pen Closed: signiica que uma classe deve estar aberta para extensão e fechada para modificação. Em outras palavras, deve ser possível adicionar mais funcionalidades na classe, mas sem editar as funções atuais de uma forma que interrompa o código existente e que a utiliza.
+- **O**pen Closed: significa que uma classe deve estar aberta para extensão e fechada para modificação. Em outras palavras, deve ser possível adicionar mais funcionalidades na classe, mas sem editar as funções atuais de uma forma que interrompa o código existente e que a utiliza.
 
 - **L**iskov Substitution: orienta o desenvolvedor a utilizar herança de uma maneira que uma classe filha "B" herdar de uma classe pai "A", a classe filha não deve replicar uma funcionalidade da classe pai de forma a alterar o comportamento da classe pai. Assim elas se tornam independentes e não quebram a lógica da aplicação.
 
@@ -177,7 +175,7 @@ Então, dá para pensar no DNS como uma lista telefônica da internet.
 
 ### Load Balancer
 
-Antes de entrar no load balancer, é relevante descatar o dimensionamento Horizontal x Vertical:
+Antes de entrar no load balancer, é relevante destacar o dimensionamento Horizontal x Vertical:
 
 - horizontal: é dimensionado utilizando mais máquinas ao conjunto de recursos
 
@@ -205,7 +203,7 @@ Executam a lógica de negócios principal, que trata da solicitação de um usu�
 
 Eles normalmente se comunicam com uma variedade de infra backend, como, banco de dados, camadas de cache, filas, serviços de pesquisa, outros microsserviços, etc...
 
-Normalmenet há dois ou mais Web Application Servers conectados a um load balancer para processar as requisições do usuário.
+Normalmente há dois ou mais Web Application Servers conectados a um load balancer para processar as requisições do usuário.
 
 Os servidores backend possuem uma linguagem específica (Node.js, Java, etc), e uma estrutura Web MVC para a linguagem (Express para o Node.js, Spring para o Java, etc).
 
@@ -305,7 +303,7 @@ Quase toda aplicação, quando atingem uma escala, aproveitam um pipeline de dad
 
 É a maneira mais simples e escalável de armazenar, acessar e compartilhar dados pela internet.
 
-É possível interagig com ele por meio de uma API REST.
+É possível interagir com ele por meio de uma API REST.
 
 O Amazon S3 é o armazenamento mais popular disponível hoje, e é nele que são armazenados os estáticos como, imagens, CSS e JavaScript, etc...
 
