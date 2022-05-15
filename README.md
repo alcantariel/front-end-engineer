@@ -52,12 +52,6 @@ Topics every front-end engineer should know.
 - TypeScript
 - Progressive Web App
   - Measuring
-  - Improving
-- Local Storage, Session Storage and Cookie
-  - Cookie Flags
-    - security
-    - httpOnly
-    - sameSite
 - Service Worker
 - Web Sockets
 - Performance
@@ -66,16 +60,21 @@ Topics every front-end engineer should know.
   - Lazy Loading
   - Dynamic Import
   - Images
-- SEO
-  - Semantic HTML
-  - Meta Tags
-  - manifest.json
-  - robots.txt
 - Security
   - CORS
   - XSS
   - Clickjacking
   - SQL Injection
+- Local Storage, Session Storage and Cookie
+  - Cookie Flags
+    - security
+    - httpOnly
+    - sameSite
+- SEO
+  - Semantic HTML
+  - Meta Tags
+  - manifest.json
+  - robots.txt
 - Architecture
   - Micro Front-end
   - Module Federation
