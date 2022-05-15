@@ -5,6 +5,7 @@ Topics every front-end engineer should know.
 ## Topics
 
 - HTML
+  - Semantic
 - CSS
   - Methodologies
     - CSS-in-JS
@@ -57,6 +58,7 @@ Topics every front-end engineer should know.
 - Performance
   - Caching
   - CDN
+  - Memoization
   - Lazy Loading
   - Dynamic Import
   - Images
