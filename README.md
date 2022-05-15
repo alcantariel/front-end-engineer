@@ -7,9 +7,9 @@ Topics every front-end engineer should know.
 - JavaScript
 - CSS Architecture
   - CSS-in-JS
+  - BEM
   - styled-components
   - Themes
-  - BEM
 - TypeScript
 - Build Tools
   - Linters
@@ -37,9 +37,9 @@ Topics every front-end engineer should know.
   - Storybook
   - Docusaurus
 - SEO
+  - Semantic HTML
+  - Meta Tags
   - manifest.json
-  - meta tags
-  - semantic html
 - Rendering
   - Client-Side Rendering
   - Server-Side Rendering
@@ -47,14 +47,14 @@ Topics every front-end engineer should know.
 - Performance
   - Service Worker
   - Caching
-  - Images
   - CDN
-  - LazyLoad
+  - Lazy Loading
   - Dynamic Import
+  - Images
 - Progressive Web App
 - Architecture
-  - Micro front-end
-  - Module federation
+  - Micro Front-end
+  - Module Federation
 - Security
   - CORS
   - XSS
@@ -68,7 +68,7 @@ Topics every front-end engineer should know.
 - Monorepo
   - Turborepo
   - NX
-  - Yarn workspaces
+  - Yarn Workspaces
 - Principles
   - Test-Driven Development (TDD)
   - SOLID
