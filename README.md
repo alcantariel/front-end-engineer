@@ -4,30 +4,41 @@ Topics every front-end engineer should know.
 
 ## Topics
 
-- JavaScript
+- HTML
 - CSS Architecture
   - CSS-in-JS
   - BEM
   - styled-components
   - Themes
-- TypeScript
-- Build Tools
-  - Linters
-  - Formatters
-  - Transpilers
+- JavaScript
+- Accessibility
 - Package Managers
   - npm
   - yarn
   - pnpm
+- Build Tools
+  - Task Runners
+    - npm scripts
+  - Linters
+    - ESLint
+  - Formatters
+    - Prettier
+  - Transpilers
+    - Babel
 - Module Bundlers
   - Webpack
 - Frameworks
   - React
   - Next.js
+- Rendering
+  - Client-Side Rendering
+  - Server-Side Rendering
+  - Static Site Generator
 - Mocks
   - Mirage JS
   - Mock Service Worker
 - Tests
+  - Jest
   - React Testing Library
     - Components
     - Hooks
@@ -36,38 +47,36 @@ Topics every front-end engineer should know.
 - Documentation
   - Storybook
   - Docusaurus
-- Accessibility
-  - A11Y Project
-- SEO
-  - Semantic HTML
-  - Meta Tags
-  - manifest.json
-  - robots.txt
-- Rendering
-  - Client-Side Rendering
-  - Server-Side Rendering
-  - Static Site Generator
-- Performance
-  - Service Worker
-  - Caching
-  - CDN
-  - Lazy Loading
-  - Dynamic Import
-  - Images
+- TypeScript
 - Progressive Web App
-- Architecture
-  - Micro Front-end
-  - Module Federation
-- Security
-  - CORS
-  - XSS
-  - Clickjacking
-  - SQL Injection
+  - Measuring
+  - Improving
 - Local Storage, Session Storage and Cookie
   - Cookie Flags
     - security
     - httpOnly
     - sameSite
+- Service Worker
+- Web Sockets
+- Performance
+  - Caching
+  - CDN
+  - Lazy Loading
+  - Dynamic Import
+  - Images
+- SEO
+  - Semantic HTML
+  - Meta Tags
+  - manifest.json
+  - robots.txt
+- Security
+  - CORS
+  - XSS
+  - Clickjacking
+  - SQL Injection
+- Architecture
+  - Micro Front-end
+  - Module Federation
 - Monorepo
   - Turborepo
   - NX
