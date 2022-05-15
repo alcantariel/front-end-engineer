@@ -70,8 +70,8 @@ Topics every front-end engineer should know.
   - NX
   - Yarn Workspaces
 - Principles
-  - Test-Driven Development (TDD)
   - SOLID
+  - Test-Driven Development (TDD)
+  - Don't Repeat Yourself (DRY)
   - Keep It Simple, Stupid (KISS)
   - You Aren't Gonna Need It (YAGNI)
-  - Don't Repeat Yourself (DRY)
