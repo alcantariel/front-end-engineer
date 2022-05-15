@@ -5,10 +5,12 @@ Topics every front-end engineer should know.
 ## Topics
 
 - HTML
-- CSS Architecture
-  - CSS-in-JS
-  - BEM
+- CSS
+  - Methodologies
+    - CSS-in-JS
+    - BEM
   - styled-components
+  - CSS Modules
   - Themes
 - JavaScript
 - Accessibility
