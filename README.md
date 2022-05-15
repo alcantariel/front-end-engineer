@@ -36,10 +36,13 @@ Topics every front-end engineer should know.
 - Documentation
   - Storybook
   - Docusaurus
+- Accessibility
+  - A11Y Project
 - SEO
   - Semantic HTML
   - Meta Tags
   - manifest.json
+  - robots.txt
 - Rendering
   - Client-Side Rendering
   - Server-Side Rendering
