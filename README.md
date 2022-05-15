@@ -1,6 +1,6 @@
 # Front-end Engineer
 
-Topics every frontend engineer should know.
+Topics every front-end engineer should know.
 
 ## Topics
 
