@@ -13,6 +13,9 @@ Topics every front-end engineer should know.
   - styled-components
   - CSS Modules
   - Themes
+  - Layout
+    - Flexbox
+    - Grid
 - JavaScript
 - Accessibility
 - Package Managers
@@ -33,10 +36,11 @@ Topics every front-end engineer should know.
 - Frameworks
   - React
   - Next.js
-- Rendering
-  - Client-Side Rendering
-  - Server-Side Rendering
-  - Static Site Generator
+- [Rendering](./rendering/README.md#rendering)
+  - [Web Vitals](./rendering/README.md#web-vitals)
+  - [Client-Side Rendering](./rendering/README.md#client-side-rendering-csr)
+  - [Server-Side Rendering](./rendering/README.md#server-side-rendering-ssr)
+  - [Static Site Generator](./rendering/README.md#static-site-generator-ssg)
 - Mocks
   - Mirage JS
   - Mock Service Worker
@@ -52,7 +56,6 @@ Topics every front-end engineer should know.
   - Docusaurus
 - TypeScript
 - Progressive Web App
-  - Measuring
 - Service Worker
 - Web Sockets
 - Performance
@@ -67,7 +70,7 @@ Topics every front-end engineer should know.
   - XSS
   - Clickjacking
   - SQL Injection
-- Local Storage, Session Storage and Cookie
+- Local Storage, Session Storage and Cookies
   - Cookie Flags
     - security
     - httpOnly
@@ -90,3 +93,4 @@ Topics every front-end engineer should know.
   - Don't Repeat Yourself (DRY)
   - Keep It Simple, Stupid (KISS)
   - You Aren't Gonna Need It (YAGNI)
+- WebAssembly
