@@ -61,14 +61,17 @@ Topics every front-end engineer should know.
 - Performance
   - Caching
   - CDN
-  - Memoization
   - Lazy Loading
   - Dynamic Import
+  - Memoization
   - Images
-- Security
+- [Security](./security/README.md#security)
+  - OWASP
   - CORS
-  - XSS
   - Clickjacking
+  - Cross-Site Scripting (XSS)
+  - Cross-Site Request Forgery (CSRF)
+  - Headers
   - SQL Injection
 - Local Storage, Session Storage and Cookies
   - Cookie Flags
