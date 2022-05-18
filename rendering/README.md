@@ -4,7 +4,7 @@ As developers, we often came across decisions that affect the entire architectur
 
 One of the main decisions is what kind of rendering we will need to use.
 
-Rendering has some attributes called Web Vitals that are important measures and that should be part of the decision according to the web page will be rendered and business necessities.
+Rendering has some attributes called [Web Vitals](#web-vitals) that are important measures and that should be part of the decision according to the web page will be rendered and business necessities.
 
 <br>
 
@@ -24,7 +24,7 @@ Reports the render time of the largest image or text block visible, relative to 
 
 It's about rendering all the page content.
 
-LCP is related to [FCP](#first-contentful-paint-fcp).
+Related to [FCP](#first-contentful-paint-fcp).
 
 <br>
 
@@ -54,7 +54,9 @@ Reducing latency in connection setup time, and on the backend will contribute to
 
 It's a measure of the time from when the page starts loading to when any part of the page's content is rendered on the screen.
 
-It's about rendering some content on the page, even if not fully loaded. Is related to [LCP](#largest-contentful-paint-lcp).
+It's about rendering some content on the page, even if not fully loaded.
+
+Related to [LCP](#largest-contentful-paint-lcp).
 
 <br>
 
