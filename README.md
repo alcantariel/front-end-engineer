@@ -66,13 +66,14 @@ Topics every front-end engineer should know.
   - Memoization
   - Images
 - [Security](./security/README.md#security)
-  - OWASP
-  - CORS
+  - [Open Web Application Security Project (OWASP)](./security/README.md#open-web-application-security-project-owasphttpsowasporg)
   - Clickjacking
+  - Cross-Origin Resource Sharing (CORS)
   - Cross-Site Scripting (XSS)
   - Cross-Site Request Forgery (CSRF)
-  - Headers
+  - Distributed Denial of Service (DDoS)
   - SQL Injection
+  - Headers
 - Local Storage, Session Storage and Cookies
   - Cookie Flags
     - security
