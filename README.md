@@ -17,7 +17,7 @@ Topics every front-end engineer should know.
     - Flexbox
     - Grid
 - JavaScript
-- Accessibility
+- [Accessibility](./accessibility/README.md#accessibility)
 - Package Managers
   - npm
   - yarn
@@ -67,13 +67,14 @@ Topics every front-end engineer should know.
   - Images
 - [Security](./security/README.md#security)
   - [Open Web Application Security Project (OWASP)](./security/README.md#open-web-application-security-project-owasphttpsowasporg)
-  - Clickjacking
-  - Cross-Origin Resource Sharing (CORS)
-  - Cross-Site Scripting (XSS)
-  - Cross-Site Request Forgery (CSRF)
-  - Distributed Denial of Service (DDoS)
-  - SQL Injection
-  - Headers
+  - [Headers](./security/README.md#headers)
+  - [Clickjacking](./security/README.md#clickjacking)
+  - [Cross-Origin Resource Sharing (CORS)](./security/README.md#cross-origin-resource-sharing-cors)
+  - [Cross-Site Scripting (XSS)](./security/README.md#cross-site-scripting-xss)
+  - [Cross-Site Request Forgery (CSRF)](./security/README.md#cross-site-request-forgery-csrf)
+  - [Distributed Denial of Service (DDoS)](./security/README.md#distributed-denial-of-service-ddos)
+  - [SQL Injection](./security/README.md#sql-injection)
+  - [Unrestricted File Upload](./security/README.md#unrestricted-file-upload)
 - Local Storage, Session Storage and Cookies
   - Cookie Flags
     - security
