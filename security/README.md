@@ -99,3 +99,4 @@ Common ways for preventing:
 
 - [OWASP](https://owasp.org/)
 - [MDN Web Docs | HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+- [10 Dicas de Segurança para Projetos Front End](https://dev.to/felipperegazio/10-dicas-de-seguranca-para-projetos-front-end-2385)
