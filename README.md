@@ -2,10 +2,6 @@
 
 Topics every front-end engineer should know.
 
-<br>
-
-## Topics
-
 - HTML
   - Semantic
 - CSS
@@ -77,11 +73,13 @@ Topics every front-end engineer should know.
   - [Distributed Denial of Service (DDoS)](./security/README.md#distributed-denial-of-service-ddos)
   - [SQL Injection](./security/README.md#sql-injection)
   - [Unrestricted File Upload](./security/README.md#unrestricted-file-upload)
-- Local Storage, Session Storage and Cookies
-  - Cookie Flags
-    - security
-    - httpOnly
-    - sameSite
+- [Local Storage, Session Storage and Cookies](./localstorage-sessionstorage-cookies/README.md#local-storage-session-storage-and-cookies)
+  - [Local Storage](./localstorage-sessionstorage-cookies/README.md#local-storage)
+  - [Session Storage](./localstorage-sessionstorage-cookies/README.md#session-storage)
+  - [Cookies](./localstorage-sessionstorage-cookies/README.md#cookies)
+    - [Secure](./localstorage-sessionstorage-cookies/README.md#secure)
+    - [HttpOnly](./localstorage-sessionstorage-cookies/README.md#httponly)
+    - [SameSite](./localstorage-sessionstorage-cookies/README.md#samesite)
 - SEO
   - Semantic HTML
   - Meta Tags

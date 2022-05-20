@@ -77,6 +77,20 @@ Common ways for preventing:
 
 ## Cross-Site Scripting (XSS)
 
+Is an attack that is a type of injection, which injects malicious scripts into trusted websites.
+
+It occurs when a website "allows" an attacker to inject into the website malicious client-side code.
+
+With this injection, the end-user has no way to know that the script is malicious, and will execute the script because it thinks the script came from a trusted source. The malicious script can access any cookies, session tokens, or other sensitive information retained by the browser and used with that site.
+
+Imagine a blog that allows input comments, but in this comment, an attacker can insert any script or tag, and these malicious comments can be read and clicked by the other users. Now you can see the hijacking.
+
+Common ways for preventing:
+
+- Don't set important tokens at [Local Storage](../localstorage-sessionstorage-cookies/README.md#local-storage), it's vulnerable to this type of attack.
+- Don't set important tokens as query params or request bodies, attackers can be sniffing or intercepting these requests with these exposed tokens.
+- Use [Cookie](../localstorage-sessionstorage-cookies/README.md#cookies) with [HttpOnly](../localstorage-sessionstorage-cookies/README.md#httponly) flag.
+
 <br>
 
 ## Cross-Site Request Forgery (CSRF)
