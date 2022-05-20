@@ -4,21 +4,25 @@ As front-end engineers, we should keep in mind that security is not exclusive re
 
 There are malicious attacks started on the front-end and we will discuss some of these and how to prevent them too.
 
+<br>
+
 ## Open Web Application Security Project (OWASP)
 
 Is a non-profit foundation that works to improve software security. Through community-led open-source projects, is the source for developers to secure the web.
 
 <br>
 
-## Headers
+## HTTP Headers
 
 Describes HTTP response headers that increase application security. Once set, these response headers will work together with the browser and help him with the vulnerabilities.
+
+<br>
 
 ### X-Frame-Options
 
 Improves protection against [Clickjacking](#clickjacking).
 
-Tells the browser if it is allowed to embed the page inside another website inside via iframe or something like.
+Tells the browser if it is allowed to embed the page inside another website inside via iframe or something like that.
 
 <br>
 
@@ -32,7 +36,7 @@ It allows web servers to declare that browsers should only interact using HTTPS 
 
 ### Content Security Policy
 
-If enabled, CSP has significant impact on the way browsers render pages (e.g., inline JavaScript is disabled by default and must be explicitly allowed in the policy).
+If enabled, CSP has a significant impact on the way browsers render pages (e.g., inline JavaScript is disabled by default and must be explicitly allowed in the policy).
 
 Helps to detect and mitigate certain types of attacks, including [Cross-Site Scripting (XSS)](#cross-site-scripting-xss) and data injection attacks. These attacks are used for everything from data theft, to site defacement, to malware distribution.
 
@@ -42,7 +46,7 @@ Helps to detect and mitigate certain types of attacks, including [Cross-Site Scr
 
 Clears browsing data (cookies, storage, cache) associated with the requesting website.
 
-This header is useful for example, during a logout process, in order to ensure that all stored content on the client side like cookies, storage and cache are removed.
+This header is useful for example, during a logout process, to ensure that all stored content on the client-side like cookies, storage and cache is removed.
 
 <br>
 

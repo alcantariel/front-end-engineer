@@ -2,6 +2,8 @@
 
 Topics every front-end engineer should know.
 
+<br>
+
 ## Topics
 
 - HTML
@@ -67,7 +69,7 @@ Topics every front-end engineer should know.
   - Images
 - [Security](./security/README.md#security)
   - [Open Web Application Security Project (OWASP)](./security/README.md#open-web-application-security-project-owasphttpsowasporg)
-  - [Headers](./security/README.md#headers)
+  - [HTTP Headers](./security/README.md#http-headers)
   - [Clickjacking](./security/README.md#clickjacking)
   - [Cross-Origin Resource Sharing (CORS)](./security/README.md#cross-origin-resource-sharing-cors)
   - [Cross-Site Scripting (XSS)](./security/README.md#cross-site-scripting-xss)
