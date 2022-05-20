@@ -50,6 +50,16 @@ This header is useful for example, during a logout process, to ensure that all s
 
 <br>
 
+## Cross-Origin Resource Sharing (CORS)
+
+Allows a server to indicate which origins will be able to loading resources inside the browser. It has a mechanism by which browsers make a "preflight" request to the server hosting the cross-origin resource, to check that the server will permit the actual request. In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request.
+
+An example of a cross-origin request is, the front-end JavaScript served at https://domain-a.com uses XMLHttpRequest to request for https://domain-b.com/data.json.
+
+For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts, following the same-origin policy. This means that a web application using those APIs can only request resources from the same origin unless the response from other origins includes the right CORS headers.
+
+<br>
+
 ## Clickjacking
 
 Is when an attacker uses multiple transparent layers over the current page and when the user interacts with any element on the page, he actually will be interacting with the transparent layer, which will redirect to another page.
@@ -62,10 +72,6 @@ Common ways for preventing:
 
 - Adding the [Content Security Policy](#content-security-policy) response header that will prevent embedding your site from other domains.
 - Properly configured [Cookies](../localstorage-sessionstorage-cookies/README.md#cookies), with the flag SameSite equals to Strict or Lax.
-
-<br>
-
-## Cross-Origin Resource Sharing (CORS)
 
 <br>
 
