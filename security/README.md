@@ -54,7 +54,7 @@ This header is useful for example, during a logout process, to ensure that all s
 
 Allows a server to indicate which origins will be able to loading resources inside the browser. It has a mechanism by which browsers make a "preflight" request to the server hosting the cross-origin resource, to check that the server will permit the actual request. In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request.
 
-An example of a cross-origin request is, the front-end JavaScript served at https://domain-a.com uses XMLHttpRequest to request for https://domain-b.com/data.json.
+An example of a cross-origin request is, the front-end JavaScript served at `https://domain-a.com` uses XMLHttpRequest to request for `https://domain-b.com/data.json`.
 
 For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts, following the same-origin policy. This means that a web application using those APIs can only request resources from the same origin unless the response from other origins includes the right CORS headers.
 
