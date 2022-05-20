@@ -2,6 +2,8 @@
 
 Topics every front-end engineer should know.
 
+## Topics
+
 - HTML
   - Semantic
 - CSS
