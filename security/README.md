@@ -52,6 +52,17 @@ This header is useful for example, during a logout process, to ensure that all s
 
 ## Clickjacking
 
+Is when an attacker uses multiple transparent layers over the current page and when the user interacts with any element on the page, he actually will be interacting with the transparent layer, which will redirect to another page.
+
+This new page is a clone of another one, with a similar domain name and everything to pass the impression that the user is interacting with the secure page.
+
+This new page is owned by the attacker, so you will be interacting with this page, entering all your confidential information and sending it to the attacker.
+
+Common ways for preventing:
+
+- Adding the [Content Security Policy](#content-security-policy) response header that will prevent embedding your site from other domains.
+- Properly configured [Cookies](../localstorage-sessionstorage-cookies/README.md#cookies), with the flag SameSite equals to Strict or Lax.
+
 <br>
 
 ## Cross-Origin Resource Sharing (CORS)
