@@ -95,17 +95,49 @@ Common ways for preventing:
 
 ## Cross-Site Request Forgery (CSRF)
 
+Is an attack that forces an end-user to execute unwanted actions on a web application in which they’re currently logged in.
+
+Is conducted using malicious social engineering, such as an email or link that tricks the victim into sending a forged request to a server.
+
+A successful attack can force the user to perform state-changing requests like transferring funds, changing their email address, and so forth. But it's limited by the user's privileges.
+
+Common ways for preventing:
+
+- [Synchronizer Token Pattern](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#synchronizer-token-pattern).
+
 <br>
 
 ## Distributed Denial of Service (DDoS)
+
+Is an attack focused on making a resource (site, application, server) unavailable for the purpose it was designed.
+
+Normally occurs using bots, attacking high-profile servers like banks or payment gateways. DDoS concerns computer networks and CPU resource management.
+
+If a service receives a very large number of requests, it may cease to be available to legitimate users. In the same way, a service may stop if a programming vulnerability is exploited, or the way the service handles the resources it uses.
+
+This type of attack can significantly degrade the service quality experienced by legitimate users. These attacks introduce large response delays, excessive losses, and service interruptions, resulting in a direct impact on availability.
 
 <br>
 
 ## SQL Injection
 
+Is an attack that consists of taking advantage of applications that fail to validate user input.
+
+Hackers can maliciously pass SQL commands through the input inside the application for execution by the application database. A successful attack can read, modify and delete sensitive data from the database.
+
+Common ways for preventing:
+
+- Sanitize input values.
+
 <br>
 
 ## Unrestricted File Upload
+
+Is an attack that represents a significant risk to applications. The first step in many attacks is to get some code to the system to be attacked. Then the attack only needs to find a way to get the code executed. Using a file upload helps the attacker accomplish the first step.
+
+Common ways for preventing:
+
+- The list of permitted extensions should be reviewed as it can contain malicious extensions as well.
 
 <br>
 
@@ -113,4 +145,5 @@ Common ways for preventing:
 
 - [OWASP](https://owasp.org/)
 - [MDN Web Docs | HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+- [Imperva](https://www.imperva.com/learn/application-security)
 - [10 Dicas de Segurança para Projetos Front End](https://dev.to/felipperegazio/10-dicas-de-seguranca-para-projetos-front-end-2385)
