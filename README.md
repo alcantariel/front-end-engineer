@@ -75,13 +75,13 @@ Topics every front-end engineer should know.
   - [Distributed Denial of Service (DDoS)](./security/README.md#distributed-denial-of-service-ddos)
   - [SQL Injection](./security/README.md#sql-injection)
   - [Unrestricted File Upload](./security/README.md#unrestricted-file-upload)
-- [Local Storage, Session Storage and Cookies](./localstorage-sessionstorage-cookies/README.md#local-storage-session-storage-and-cookies)
-  - [Local Storage](./localstorage-sessionstorage-cookies/README.md#local-storage)
-  - [Session Storage](./localstorage-sessionstorage-cookies/README.md#session-storage)
-  - [Cookies](./localstorage-sessionstorage-cookies/README.md#cookies)
-    - [Secure](./localstorage-sessionstorage-cookies/README.md#secure)
-    - [HttpOnly](./localstorage-sessionstorage-cookies/README.md#httponly)
-    - [SameSite](./localstorage-sessionstorage-cookies/README.md#samesite)
+- [Web Storage](./web-storage/README.md#web-storage)
+  - [Local Storage](./web-storage/README.md#local-storage)
+  - [Session Storage](./web-storage/README.md#session-storage)
+  - [Cookie](./web-storage/README.md#cookie)
+    - [Secure](./web-storage/README.md#secure)
+    - [HttpOnly](./web-storage/README.md#httponly)
+    - [SameSite](./web-storage/README.md#samesite)
 - SEO
   - Semantic HTML
   - Meta Tags

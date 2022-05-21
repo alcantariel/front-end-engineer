@@ -1,8 +1,12 @@
-# Local Storage, Session Storage and Cookies
+# Web Storage
+
+This browser API provides mechanisms that can store pairs of keys and values.
 
 <br>
 
 ## Local Storage
+
+i.e. Local Storage is a good place to store public and non-sensitive data.
 
 <br>
 
@@ -10,7 +14,7 @@
 
 <br>
 
-## Cookies
+## Cookie
 
 <br>
 
