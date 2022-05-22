@@ -71,7 +71,7 @@ This new page is owned by the attacker, so you will be interacting with this pag
 Common ways for preventing:
 
 - Adding the [Content Security Policy](#content-security-policy) response header that will prevent embedding your site from other domains.
-- Properly configured [Cookies](../web-storage/README.md#cookie), with the flag SameSite equals to Strict or Lax.
+- Properly configured [Cookies](../cookie/README.md#cookie), with the flag [SameSite](../cookie/README.md#samesite) equals to Strict or Lax.
 
 <br>
 
@@ -87,9 +87,9 @@ Imagine a blog that allows input comments, but in this comment, an attacker can 
 
 Common ways for preventing:
 
-- Don't set important tokens at [Local Storage](../web-storage/README.md#local-storage), it's vulnerable to this type of attack.
+- Don't set important tokens at [Local Storage](../web-storage-api/README.md#local-storage), it's vulnerable to this type of attack.
 - Don't set important tokens as query params or request bodies, attackers can be sniffing or intercepting these requests with these exposed tokens.
-- Use [Cookie](../web-storage/README.md#cookie) with [HttpOnly](../web-storage/README.md#httponly) flag.
+- Use [Cookie](../cookie/README.md#cookie) with [HttpOnly](../cookie/README.md#httponly) flag.
 
 <br>
 
