@@ -80,6 +80,7 @@ Topics every front-end engineer should know.
   - [Session Storage](./web-storage-api/README.md#session-storage)
 - [Cookie](./cookie/README.md#cookie)
   - [Attributes](./cookie/README.md#attributes)
+  - [Cookies and Security](./cookie/README.md#cookies-and-security)
 - SEO
   - Semantic HTML
   - Meta Tags
