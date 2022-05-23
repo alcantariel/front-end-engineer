@@ -107,6 +107,14 @@ Common ways for preventing:
 
 <br>
 
+## Man-in-the-Middle
+
+Is an attack that intercepts a communication between two systems.
+
+Using this, an attacker can listen to the unencrypted traffic between the client and server, and steal any information that’s been exchanged.
+
+<br>
+
 ## Distributed Denial of Service (DDoS)
 
 Is an attack focused on making a resource (site, application, server) unavailable for the purpose it was designed.
