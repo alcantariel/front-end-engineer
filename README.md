@@ -79,9 +79,7 @@ Topics every front-end engineer should know.
   - [Local Storage](./web-storage-api/README.md#local-storage)
   - [Session Storage](./web-storage-api/README.md#session-storage)
 - [Cookie](./cookie/README.md#cookie)
-  - [Secure](./cookie/README.md#secure)
-  - [HttpOnly](./cookie/README.md#httponly)
-  - [SameSite](./cookie/README.md#samesite)
+  - [Attributes](./cookie/README.md#attributes)
 - SEO
   - Semantic HTML
   - Meta Tags
