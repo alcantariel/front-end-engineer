@@ -107,14 +107,6 @@ Common ways for preventing:
 
 <br>
 
-## Man-in-the-Middle
-
-Is an attack that intercepts a communication between two systems.
-
-Using this, an attacker can listen to the unencrypted traffic between the client and server, and steal any information that’s been exchanged.
-
-<br>
-
 ## Distributed Denial of Service (DDoS)
 
 Is an attack focused on making a resource (site, application, server) unavailable for the purpose it was designed.
@@ -124,6 +116,14 @@ Normally occurs using bots, attacking high-profile servers like banks or payment
 If a service receives a very large number of requests, it may cease to be available to legitimate users. In the same way, a service may stop if a programming vulnerability is exploited, or the way the service handles the resources it uses.
 
 This type of attack can significantly degrade the service quality experienced by legitimate users. These attacks introduce large response delays, excessive losses, and service interruptions, resulting in a direct impact on availability.
+
+<br>
+
+## Man-in-the-Middle (MitM)
+
+Is an attack that intercepts a communication between two systems.
+
+Using this, an attacker can listen to the unencrypted traffic between the client and server, and steal any information that’s been exchanged
 
 <br>
 

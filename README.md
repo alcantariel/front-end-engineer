@@ -73,6 +73,7 @@ Topics every front-end engineer should know.
   - [Cross-Site Scripting (XSS)](./security/README.md#cross-site-scripting-xss)
   - [Cross-Site Request Forgery (CSRF)](./security/README.md#cross-site-request-forgery-csrf)
   - [Distributed Denial of Service (DDoS)](./security/README.md#distributed-denial-of-service-ddos)
+  - [Man-in-the-Middle (MitM)](./security/README.md#man-in-the-middle)
   - [SQL Injection](./security/README.md#sql-injection)
   - [Unrestricted File Upload](./security/README.md#unrestricted-file-upload)
 - [Web Storage API](./web-storage-api/README.md#web-storage-api)
