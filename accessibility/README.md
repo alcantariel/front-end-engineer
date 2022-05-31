@@ -4,19 +4,11 @@ Accessibility means to make users able to use web applications even with some di
 
 "The Web is fundamentally designed to work for all people, whatever their hardware, software, language, location, or ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability." (W3C - Accessibility)
 
-There are some characteristics of an accessible application.
+There are some characteristics of an accessible application:
 
-<br>
-
-## [Semantic HTML](../html/README.md#semantic)
-
-<br>
-
-## CSS
-
-<br>
-
-## JavaScript
+- [Semantics in HTML](../html/README.md#semantics)
+- Semantics in CSS
+- Semantics in JavaScript
 
 <br>
 

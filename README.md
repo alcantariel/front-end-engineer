@@ -4,8 +4,8 @@ Topics every front-end engineer should know.
 
 ## Topics
 
-- HTML
-  - Semantic
+- [HTML](./html/README.md#hypertext-markup-language-html)
+  - [Semantics](./html/README.md#semantics)
 - CSS
   - Methodologies
     - CSS-in-JS
@@ -83,7 +83,7 @@ Topics every front-end engineer should know.
   - [Attributes](./cookie/README.md#attributes)
   - [Cookies and Security](./cookie/README.md#cookies-and-security)
 - SEO
-  - Semantic HTML
+  - [Semantics in HTML](./html/README.md#semantics)
   - Meta Tags
   - manifest.json
   - robots.txt
