@@ -7,6 +7,7 @@ Topics every front-end engineer should know.
 - [HTML](./html/README.md#hypertext-markup-language-html)
   - [Semantics](./html/README.md#semantics)
 - CSS
+  - Semantics
   - Methodologies
     - CSS-in-JS
     - BEM
