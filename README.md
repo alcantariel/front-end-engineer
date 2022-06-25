@@ -5,6 +5,11 @@ Topics every front-end engineer should know.
 ## Topics
 
 - [HTML](./html/README.md#hypertext-markup-language-html)
+  - [Anatomy of an HTML Element](./html/README.md#anatomy-of-an-html-element)
+  - [Block vs Inline](./html/README.md#block-vs-inline)
+  - [Empty Elements](./html/README.md#empty-elements)
+  - [Attributes](./html/README.md#attributes)
+  - [Anatomy of an HTML Document](./html/README.md#anatomy-of-an-html-document)
   - [Semantics](./html/README.md#semantics)
 - CSS
   - Semantics

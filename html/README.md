@@ -18,7 +18,7 @@ It consists of a series of tags or elements, which you use to enclose, wrap, or 
 
 <br>
 
-## Block versus Inline Elements
+## Block vs Inline
 
 There are two important categories of elements to know in HTML: block-level elements and inline elements.
 
@@ -63,7 +63,7 @@ An attribute should have:
 
 <br>
 
-## Anatomy of an HTML document
+## Anatomy of an HTML Document
 
 Individual HTML elements aren't very useful on their own. This example will combine elements to form an entire HTML page:
 
@@ -93,6 +93,15 @@ Individual HTML elements aren't very useful on their own. This example will comb
 
 It refers to giving meaning to a piece of code, like "what purpose or role does that HTML element has?", rather than "how does this div look like?".
 
+Think you writing a newspaper or a book, and how you can structure him.
+
+As the use of visually designed layouts progressed, developers started to use generic “non-semantic” tags like `<div>`. They would often give these elements a class or id attribute to describe their purpose. For example, instead of `<header>` this was often written as `<div class="header">`.
+
+Semantic HTML doesn't take any longer to write than non-semantic which is bad. Write a semantic markup has some benefits:
+
+- It's easier to read, when looking at a block with great semantics, you can see what he does and what is his purpose.
+- It's great for [accessibility](../accessibility/README.md#accessibility). Search engines and assistive technologies (like screen readers for users with a sight impairment) are also able to better understand the context and content of the page, meaning a better experience for your users.
+
 <br>
 
 ## References
@@ -100,3 +109,4 @@ It refers to giving meaning to a piece of code, like "what purpose or role does 
 - [Getting started with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 - [HTML: A good basis for accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
 - [Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+- [Semantic HTML5 Elements Explained](https://www.freecodecamp.org/news/semantic-html5-elements/)
