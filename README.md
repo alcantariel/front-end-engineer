@@ -23,6 +23,7 @@ Topics every front-end engineer should know.
     - Flexbox
     - Grid
 - JavaScript
+  - Semantics
 - [Accessibility](./accessibility/README.md#accessibility)
 - Package Managers
   - npm

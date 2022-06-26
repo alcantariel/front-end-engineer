@@ -22,11 +22,15 @@ It consists of a series of tags or elements, which you use to enclose, wrap, or 
 
 There are two important categories of elements to know in HTML: block-level elements and inline elements.
 
+<br>
+
 ### Block
 
 Block-level elements form a visible block on a page. A block-level element appears on a new line following the content that precedes it. Any content that follows a block-level element also appears on a new line.
 
 A block-level element might represent headings, paragraphs, lists, navigation menus or footers.
+
+<br>
 
 ### Inline
 
