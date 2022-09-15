@@ -40,6 +40,7 @@ Topics every front-end engineer should know.
     - Babel
 - Module Bundlers
   - Webpack
+    - Module Federation
 - Frameworks
   - React
   - Next.js
@@ -96,7 +97,6 @@ Topics every front-end engineer should know.
   - robots.txt
 - Architecture
   - Micro Front-end
-  - Module Federation
 - Monorepo
   - Turborepo
   - NX
