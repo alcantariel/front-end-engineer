@@ -97,7 +97,6 @@ Topics every front-end engineer should know.
   - robots.txt
 - Architecture
   - Micro Front-end
-  - Module Federation
 - Monorepo
   - Turborepo
   - NX
