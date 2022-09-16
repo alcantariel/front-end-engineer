@@ -38,8 +38,9 @@ Topics every front-end engineer should know.
     - Prettier
   - Transpilers
     - Babel
-- Module Bundlers
-  - Webpack
+- [Module Bundlers](./module-bundlers/README.md#module-bundlers)
+  - webpack
+  - Rollup
 - Frameworks
   - React
   - Next.js
